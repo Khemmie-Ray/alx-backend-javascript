@@ -1,7 +1,7 @@
 {
   "name": "node_js_basics",
   "version": "1.0.0",
-  "description": "",
+  "description": "Learning node.js basic",
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint",
@@ -9,7 +9,7 @@
     "test": "./node_modules/mocha/bin/mocha --require babel-register --exit",
     "dev": "nodemon --exec babel-node --presets babel-preset-env ./server.js ./database.csv"
   },
-  "author": "",
+  "author": "Khemmie Ray",
   "license": "ISC",
   "dependencies": {
     "chai-http": "^4.3.0",
